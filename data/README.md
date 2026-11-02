@@ -1,11 +1,19 @@
-# Data
+# Data access
 
-Daily OHLCV data are obtained exclusively from Yahoo Finance using the
-`yfinance` Python package.
+Daily OHLCV data were obtained from Yahoo Finance through `yfinance` for
+17 tickers: AES, BEP, BLDP, BLNK, CSIQ, CWEN, DQ, ENPH, FCEL, FSLR, HASI,
+JKS, NEE, ORA, PLUG, RUN and SEDG. The primary snapshot was collected on
+2026-07-08. Weekly observations are reconstructed from daily observations.
+Raw vendor prices are not redistributed, and a new download may differ
+because of vendor revisions and corporate-action adjustments.
 
-Weekly observations are deterministically aggregated from the daily series
-and therefore represent an alternative temporal resolution of the same
-underlying market data.
+The revision download script is
+`revision/research_code/revision_audit/download_revision_data.py`.
+Set `SEC_USER_AGENT` before running scripts that query SEC EDGAR:
 
-Raw downloaded data are not stored in this repository. The data preparation
-pipeline will reproduce the dataset from Yahoo Finance.
+```sh
+export SEC_USER_AGENT="Your Name your.email@example.com"
+```
+
+Research scripts retain their original project layout; adjust paths and provide
+local data before running them. See `revision/INDEX.md`.

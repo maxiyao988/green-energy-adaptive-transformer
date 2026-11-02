@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Adaptive Multi-Scale Transformer for Green-Energy Stock Return Forecasting"
+authors:
+  - family-names: Ma
+    given-names: Xiyao
+  - family-names: Yang
+    given-names: Chenxue
+repository-code: "https://github.com/maxiyao988/green-energy-adaptive-transformer"
+license: MIT
+preferred-citation:
+  type: article
+  title: "An Adaptive Multi-Scale Transformer for Green-Energy Stock Return Forecasting: A Controlled Evaluation of Static Scale Aggregation and Sample-Dependent Routing"
+  authors:
+    - family-names: Ma
+      given-names: Xiyao
+    - family-names: Yang
+      given-names: Chenxue
+  journal: "Computers"
+  year: 2026
+  notes: "Under review (manuscript computers-4613491)."

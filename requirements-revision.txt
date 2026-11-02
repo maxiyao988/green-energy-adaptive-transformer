@@ -1,0 +1,11 @@
+# Environment used for the revision analyses (CPU)
+python==3.12.1
+torch==2.2.0
+numpy==1.26.4
+pandas==2.2.0
+scipy==1.13.0
+scikit-learn==1.5.0
+openpyxl
+matplotlib
+# Data download and the Step24 review used separate environments:
+# yfinance==1.7.0, statsmodels==0.15.0
