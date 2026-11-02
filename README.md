@@ -1,3 +1,5 @@
+> **Note:** This repository is being updated for the revised manuscript (November 2026). The findings below describe the original submission; the revised analyses and results will be added shortly.
+
 # Adaptive Multi-Scale Transformer for Green-Energy Stock Return Forecasting
 
 Official implementation of:
